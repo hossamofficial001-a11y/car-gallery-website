@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(59, 59, 101);
+}
+
+header nav{                 
+background-color: rgba(70, 48, 22, 0.887);
+font-size: 23px;
+height: 40px;               
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(246, 246, 246);
+    transition-duration: 0.3s;
+}
+nav a:hover{
+    background-color: rgb(33, 114, 114);
+     font-size: 30px;
+}
+
+.parent{
+   
+    background-color: rgba(25, 27, 63, 0.882);
+ 
+}
+.icons{
+    color: white;
+    font-size: 40px;
+     width: 90vh;
+    display: flex;
+    justify-content: end;
+    transition-duration: 0.3s;
+}
+.icons .fa-heart:hover{
+   color: rgb(99, 127, 127);
+}
+.icons .fa-cart-shopping:hover{
+    color:rgb(99, 127, 127);
+}
+.icons .fa-user:hover{
+color:rgb(99, 127, 127);
+}
+
+.logo img{
+    border-radius: 100%;
+    max-width: 100px;
+}
+.search{     /*Search(input)*/
+    width: 200px;
+    position:absolute;
+    top:30px;
+    left:30%;
+   
+}
+.search .fa-sistrix{ /*Icon class*/
+    font-size: 20px;
+    position: absolute;
+    left:70%;
+
+
+}
+.products{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+.card{
+    border-radius: 15px;
+    margin: 10px;
+    background-color: rgb(30, 73, 73);
+}
+.card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition-duration: 0.5s;
+ 
+
+}
+.card img:hover{
+    width: 120%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 15px;
+ 
+}
+.price{
+    text-align: center;
+    font-weight:bold;
+    font-size: 30px;
+    color: azure;
+}
+.card button{
+   background-color: black;
+   color: white;
+   border-radius: 6px;
+   width: 100px;
+   height: 30px;
+   font-size: 14px;
+ transition-duration: 0.5s;
+}
+.card button:hover{
+    font-size: 20px;
+    transform: scaleX(1.3);
+     transform: scaleY(1.3);
+}
+footer{
+      background-color: rgb(121, 133, 136);
+}
+.ground{
+  
+    display: flex;
+    justify-content: center;
+    gap:30px
+
+}
+footer .ground a{
+    text-decoration: none;
+    color:white;
+}
+footer .ground a:hover{
+    text-decoration: none;
+    color:rgb(201, 23, 23);
+}
